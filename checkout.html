@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Checkout</title>
+</head>
+<body>
+
+<h1>Checkout</h1>
+
+ <form action="mailto:darinakorsun@hotmail.co.uk" method="post">
+
+<fieldset>
+    <!-- name= remains the same for all options to enable independent selection -->
+
+    <legend>Select pizza collection method:
+    </legend>
+    <input type="radio" name="Method" id="Takeaway">
+    <label for="Takeaway">Takeaway</label>
+    <br>
+    <input type="radio" name="Method" id="Delivery">
+    <label for="Delivery">Delivery</label>
+    <br>  
+</fieldset>
+<br>
+
+<fieldset>
+<legend>Personal Details (*)</legend>
+<label for="details">Name: </label>
+<input type="text" name="details" id="details" required>
+<br>
+<br>
+<label for="details">Full Address: </label>
+<input type="text" name="details" id="details" required>
+<br>
+<br>
+<label for="details">Post Code: </label>
+<input type="text" name="details" id="details" required>
+
+    <br>
+    <br>
+
+</fieldset>
+
+<fieldset>
+    <br>
+    <label for="currency">Please Select Payment Method</label>
+    <select name="paymentmethod" id="paymentmethod">
+    <option label="Select" selected="selected"></option>
+    <option value="VISA">VISA DEBIT</option>
+    <option value="CASH">CASH</option>
+    </select>
+    <br><br>
+    <label for="currency">Please Select Your Currency</label>
+    <select name="currency" id="currency">
+    <option value="GBP">GBP</option>
+    <option value="USD">USD</option>
+    <option value="EUR">EUR</option>
+    </select>
+
+    <br>
+    <br>
+    
+<label for="information"></label>Please Enter Your 12 Digit Card Number (*)</label>
+        </label>
+        <input type="text" name="input1" id="information" required>
+        <br>
+        <br>
+<label for="information"></label>Please Enter Your 3 Digit Sort Code (*)</label>
+    </label>
+    <input type="text" name="input1" id="information" required>
+    <br>
+    <br>
+
+ <button type="submit">Submit Payment Details</button>
+
+</fieldset>
+
+ </form>
+
+
+
+
+
+
+</body>
+</html>
